@@ -1,3 +1,10 @@
+import Breadcrumb from "../Components/Breadcrumb";
+
 export default function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <Breadcrumb />
+      About
+    </div>
+  );
 }

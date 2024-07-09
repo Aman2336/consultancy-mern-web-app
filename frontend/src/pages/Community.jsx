@@ -1,3 +1,10 @@
+import Breadcrumb from "../Components/Breadcrumb";
+
 export default function Community() {
-  return <div>Community</div>;
+  return (
+    <div>
+      <Breadcrumb />
+      Community
+    </div>
+  );
 }

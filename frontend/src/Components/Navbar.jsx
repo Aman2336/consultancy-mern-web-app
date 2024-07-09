@@ -32,16 +32,16 @@ const Navbar = () => {
             <Link to="/" className="text-gray-800 hover:text-blue-500">
               Home
             </Link>
-            <Link to="/about" className="text-gray-800 hover:text-blue-500">
+            <Link to="/ABOUT" className="text-gray-800 hover:text-blue-500">
               About
             </Link>
-            <Link to="/services" className="text-gray-800 hover:text-blue-500">
+            <Link to="/SERVICES" className="text-gray-800 hover:text-blue-500">
               Services
             </Link>
-            <Link to="/community" className="text-gray-800 hover:text-blue-500">
+            <Link to="/COMMUNITY" className="text-gray-800 hover:text-blue-500">
               Community
             </Link>
-            <Link to="/contact" className="text-gray-800 hover:text-blue-500">
+            <Link to="/CONTACT" className="text-gray-800 hover:text-blue-500">
               Contact
             </Link>
           </div>

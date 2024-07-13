@@ -5,6 +5,7 @@ import Services from "./pages/Services.jsx";
 import Community from "./pages/Community.jsx";
 import Contact from "./pages/Contact.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import Footer from "./Components/footer.jsx";
 import "./index.css";
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/community" element={<Community />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
